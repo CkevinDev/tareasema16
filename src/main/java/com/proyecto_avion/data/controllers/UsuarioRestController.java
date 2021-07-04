@@ -1,7 +1,7 @@
 package com.proyecto_avion.data.controllers;
 
 import com.proyecto_avion.data.entities.Usuario;
-import com.proyecto_avion.data.service.IUsuarioService;
+import com.proyecto_avion.data.service.usuario.IUsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

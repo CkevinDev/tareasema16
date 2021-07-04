@@ -1,4 +1,4 @@
-package com.proyecto_avion.data.service;
+package com.proyecto_avion.data.service.usuario;
 
 import com.proyecto_avion.data.entities.Usuario;
 
