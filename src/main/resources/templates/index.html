@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="plantillas/base :: head">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <nav th:replace="plantillas/base :: nav1"></nav>
+    <nav th:replace="plantillas/base :: nav2"></nav>
+    <div class="container">
+        <div class="reserva">
+            <div class="reserva__seleccion">
+                <p>Vuelos con reserva flexible</p>
+                <div class="seleccion__items">
+                    <input type="radio" name="tiporeserva" id="">
+                </div>
+            </div>
+            <div class="reserva__calendar">
+                <div class="ori_des">
+                    <div class="origen">
+                        <input type="text">
+                    </div>
+                    <div class="destino">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="ida_vuelta">
+                    <div class="ida">
+                        <input type="date">
+                    </div>
+                    <div class="vuelta">
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="pasajero">
+                    <input type="number">
+                    <p>pasajero</p>
+                </div>
+                <div class="buton">
+                    <a href="#">Buscar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer th:replace="plantillas/base :: footer"></footer>
+</body>
+</html>
